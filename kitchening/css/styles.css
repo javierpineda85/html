@@ -214,8 +214,8 @@ div.container footer.main-footer ul li{
     max-width: 1024px;
     padding: 2%;
     position: absolute;
-    top: 2px;
-    left: 0px;
+    top: 250px;
+    left: 250px;
   }
   img.especial{
     position: absolute;
