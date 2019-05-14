@@ -1,0 +1,110 @@
+
+article{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+body{
+  width: 960px;
+  font-size: 20px;
+}
+header{
+  padding-bottom: 20px;
+  padding-left: 15px;
+  box-sizing:border-box;
+  border-bottom: solid 1px gainsboro;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration:none;
+  color: black;
+
+}
+img{
+  position: relative;
+  float: right;
+}
+img.logo{
+  position: relative;
+  float: left;
+  height: 170px;
+  width: 300px;
+  padding: 25px;
+}
+div{
+  overflow: hidden;
+  position: absolute;
+  /* IDEA: height: 700px; */
+
+}
+nav{
+  padding: 15px;
+  position: relative;
+  float: left;
+  width: 300px;
+  box-sizing: border-box;
+}
+main{
+  padding: 15px;
+  position: relative;
+  width: 610px;
+  float: right;
+  box-sizing: border-box;
+  border-left: solid 1px gainsboro;
+}
+section{
+  margin-left: 50px;
+}
+h3{
+  margin-left: -15px;
+  font-size: 20px;
+}
+footer{
+  padding: 20px;
+  width: 960px;
+  background-size:auto;
+  position: absolute;
+  top:2960px;
+  box-sizing: border-box;
+}
+h4{
+  color: white;
+  font-size: 20px;
+  float:right;
+  margin-right: 50px;
+  line-height: 180%;
+
+}
+div.footer{
+  width: 960px;
+  text-align: right;
+  background-size:auto;
+  background-color: grey;
+  position: absolute;
+  box-sizing: border-box;
+
+}
+a.footer{
+  color: white;
+  text-decoration: none;
+
+}
+form{
+  font-size: 18px;
+  line-height: 100%;
+  box-sizing: border-box;
+  background-color: gainsboro;
+  border: solid 2px yellow;
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+
+}
+button{
+  color: black;
+  background-color:rgb(225, 167, 1);
+  border-radius: 10px;
+  width: 160px;
+  height: 30px;
+}

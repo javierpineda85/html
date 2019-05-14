@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+
+<form class="" action="index.html" method="post">
+  <label for="lugar"><b>De dónde sos?</b></label><br>
+    <select class="" name="lugar" id="lugar">
+      <option value="">Seleccioná una opción</option>
+      <option value="bue">Buenos Aires</option>
+      <option value="cat">Catmarca</option>
+      <option value="mdz">Mendoza</option>
+      <option value="bbl">Bahía Blanca</option>
+      <option value="otr">Otro</option>
+    </select> <br><br>
+  <label for="luz"><b>Qué te pareció la iluminación del ambiente?</b></label><br>
+    <input type="checkbox" name="luz" value="mb">Muy acorde <br>
+    <input type="checkbox" name="luz" value="b">Buena, pero podria mejorar <br>
+    <input type="checkbox" name="luz" value="m">Mala <br> <br>
+
+  <label for="recomienda"><b>Recomendarias el lugar?</b></label> <br>
+    <input type="radio" name="recomienda" value="s">Si <br>
+    <input type="radio" name="recomienda" value="n">No <br><br>
+
+  <label for="xq"><b>Porqué?</b></label> <br>
+    <textarea name="xq" rows="8" cols="40"></textarea> <br><br>
+
+  <label for="datos"><b>Dejanos tus datos y nos pondremos en contacto con vos</b></label> <br>
+
+    Nombre: <input type="text" name="nombre" id="datos" value=""placeholder="Tu nombre"> <br>
+    Email: <input type="email" name="email" id="datos" value=""placeholder="Tu email"> <br> <br>
+
+  <button type="submit" name="button">Enviar</button> <button type="reset" name="button">Resetear</button>
+  </form>
+</body>
+</html>

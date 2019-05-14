@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url(../img/bg-2.png);
+  width: 1140px;
+  text-align: center;
+}

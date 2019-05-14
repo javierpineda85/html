@@ -1,0 +1,37 @@
+body{
+  background-image: url(../html/images/bg-body.png);
+
+}
+div.container{
+  max-width: 1180px;
+
+
+}
+header.main-header{
+
+}
+img.logo{
+  width: 180px;
+  border-radius: 50%;
+  border-top: 15px;
+
+}
+nav{
+  overflow: hidden;
+
+}
+nav.main-nav{
+  width: 180px;
+  height: 50px;
+  border-top: 30px;
+}
+
+section.banner{
+  width: 1180px;
+}
+section.banner img{
+  width: 100%;
+}
+li{
+  list-style: none;
+}
